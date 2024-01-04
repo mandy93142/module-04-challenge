@@ -23,10 +23,17 @@ body {
 }
 
 button {
-  color: crimson;
   cursor: pointer;
   padding: 10px;
   font-size: 16px;
+  background-color: purple; /* Color the buttons in purple */
+  color: white; /* Change text color to white for better visibility */
+  border: none; /* Optional: Removes the border */
+  border-radius: 5px; /* Optional: Adds rounded corners to the buttons */
+}
+
+button:hover {
+  background-color: #7d00a3; 
 }
 
 #timer {
